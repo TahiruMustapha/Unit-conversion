@@ -1,0 +1,136 @@
+body{
+    background: lightblue;
+    align-items: center;
+    margin: 0;
+}
+.container{
+    width: 500px;
+    height: 678px;
+    border: 4px solid white;
+    border-radius: 12px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header{
+   
+    padding-top: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: blue;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    color: white;
+    text-align: center;
+}
+.header input{
+    margin-bottom: 30px;
+    border: 1px solid gray;
+    width: 45px;
+    margin-left: auto;
+    background: none;
+    color: white;
+    margin-right: auto;
+    padding: 1.5rem 2rem;
+    border-radius: 9px;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.header input:focus{
+    outline: none;
+}
+.header button{
+    padding: 0.8rem 1.6rem;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    border: none;
+}
+.header button:hover{
+   background: lightblue;
+}
+.units{
+    padding-top:20px;
+    padding-bottom: 3px;
+    background: lavender;
+    align-items: center;
+    border-bottom-right-radius: 9px;
+    border-bottom-left-radius: 9px;
+}
+.lenght{
+    box-shadow: 0 5px  gray;
+    border: 2px solid black;
+    border: none;
+    padding: 0.2rem;
+    border-radius: 9px;
+    margin-top: 20px;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    align-items: center;
+}
+.lenght h4{
+   color: blue;
+   margin-left: 150px;
+  
+}
+.lenght p{
+    margin-left: 90px;
+}
+.volume{
+    border: 2px solid black;
+    border-radius: 9px;
+    box-shadow: 0 5px  gray;
+    border: none;
+    padding: 0.2rem;
+    width: 450px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    align-items: center;
+}
+.volume h4{
+    color: blue;
+   margin-left: 150px;
+ 
+}
+.volume p{
+    margin-left: 90px;
+}
+.mass{
+    margin-top: 20px;
+    border: 2px solid black;
+    border-radius: 9px;
+    box-shadow: 0 5px  gray;
+    border: none;
+    padding: 0.2rem;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    background: white;
+    align-items: center;
+}
+.mass h4{
+    color: blue;
+    margin-left: 150px;
+}
+.mass p{
+    margin-left: 90px;
+}
+#message-el{
+    font-weight: bold;
+   
+}
+#message-el2{
+    font-weight: bold;
+    
+}
+#message-el3{
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+
